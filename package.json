@@ -1,0 +1,24 @@
+{
+  "name": "taskcluster-example-worker",
+  "version": "0.0.0",
+  "private": true,
+  "description": "example-worker ==============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taskcluster/example-worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taskcluster/example-worker/issues"
+  },
+  "homepage": "https://github.com/taskcluster/example-worker",
+  "dependencies": {
+    "taskcluster-client": "^0.14.0"
+  }
+}
