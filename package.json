@@ -1,6 +1,6 @@
 {
   "name": "taskcluster-example-worker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Taskcluster example/test worker",
   "main": "worker.js",
@@ -13,7 +13,7 @@
     "url": "git://github.com/taskcluster/example-worker.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache2",
   "bugs": {
     "url": "https://github.com/taskcluster/example-worker/issues"
   },
