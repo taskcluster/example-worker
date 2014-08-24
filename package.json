@@ -1,9 +1,8 @@
 {
   "name": "taskcluster-example-worker",
-  "version": "0.0.0",
-  "private": true,
-  "description": "example-worker ==============",
-  "main": "server.js",
+  "version": "1.0.0",
+  "description": "Taskcluster example/test worker",
+  "main": "worker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -13,12 +12,15 @@
     "url": "git://github.com/taskcluster/example-worker.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache2",
   "bugs": {
     "url": "https://github.com/taskcluster/example-worker/issues"
   },
   "homepage": "https://github.com/taskcluster/example-worker",
   "dependencies": {
-    "taskcluster-client": "^0.14.5"
+    "debug": "^1.0.4",
+    "promise": "^5.0.0",
+    "slugid": "^1.0.2",
+    "taskcluster-client": "^0.15.0"
   }
 }
