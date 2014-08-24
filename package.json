@@ -1,7 +1,6 @@
 {
   "name": "taskcluster-example-worker",
   "version": "1.0.0",
-  "private": true,
   "description": "Taskcluster example/test worker",
   "main": "worker.js",
   "scripts": {
